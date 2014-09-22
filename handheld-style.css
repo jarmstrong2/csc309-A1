@@ -1,0 +1,66 @@
+/* Assignment #1 Style Sheet */
+
+body {
+  background-color: green;
+  width: 980px;
+  text-align: center;
+  font-size: 25px;
+}
+
+div.main-container {
+  width: 800px;
+}
+
+div.header-container {
+  background-color: white;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 25px 0px 25px 0px;
+}
+
+div.header-container p {
+  color: blue;
+}
+
+div.navigation-container {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  margin: 25px 0px 25px 0px;
+}
+
+div.navigation-container p {
+}
+
+div.body-container {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  margin: 25px 0px 25px 0px;
+}
+
+div.body-container p {
+}
+
+div.side-panel-container {
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  margin: 25px 0px 25px 0px;
+}
+
+div.side-panel-container p {
+}
+
+div.footer-container {
+  background-color: white;
+  border-radius: 25px;
+  border-width: 2px;
+  border-style: solid;
+  margin: 25px 0px 25px 0px;
+}
+
+div.footer-container p {
+  color: blue;
+}
