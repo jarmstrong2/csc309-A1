@@ -79,7 +79,7 @@ div.side-panel-container p {
   top: 45%;
 }
 
-div.footer-container {
+footer.footer-container {
   background-color: white;
   border-radius: 25px;
   border-width: 2px;
@@ -87,6 +87,6 @@ div.footer-container {
   margin: 25px 0px 25px 0px;
 }
 
-div.footer-container p {
+footer.footer-container p {
   color: blue;
 }
