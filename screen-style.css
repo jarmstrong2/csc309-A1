@@ -13,7 +13,7 @@ div.main-container {
 
 div.contents-container {
   position: relative;
-  height: 300px;
+  height: 450px;
 }
 
 div.header-container {
@@ -25,7 +25,7 @@ div.header-container {
 }
 
 div.header-container p {
-  color: blue;
+  color: red;
 }
 
 div.navigation-container {
@@ -35,7 +35,7 @@ div.navigation-container {
   position: absolute;
   top: 0px;
   left: 0px;
-  width: 30%;
+  width: 28%;
   height: 100%;
 }
 
@@ -51,8 +51,8 @@ div.body-container {
   border-style: solid;
   position: absolute;
   top: 0px;
-  left: 350px;
-  width: 30%;
+  left: 325px;
+  width: 35%;
   height: 100%;
 }
 
@@ -69,8 +69,8 @@ div.side-panel-container {
   position: absolute;
   top: 0%;
   right: 0px;
-  width: 30%;
-  height: 100%;
+  width: 28%;
+  height: 50%;
 }
 
 div.side-panel-container p {
@@ -88,5 +88,5 @@ footer.footer-container {
 }
 
 footer.footer-container p {
-  color: blue;
+  color: red;
 }
