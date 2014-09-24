@@ -1,0 +1,92 @@
+/* Assignment #1 Style Sheet */
+
+/* All Devices */
+
+body {
+    background-color: green;
+    font-size: 25px;
+    margin-top:0%;
+    padding:0%; 
+}
+
+header, nav, article, aside, footer {
+    text-align: center;
+    background-color: white;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    width: 75%;
+    height: 10%;
+}
+
+header, footer {
+    border-radius: 25px;
+    color: blue;  
+}
+    
+/* Smartphones (portrait and landscape) */
+@media only screen
+and (min-device-width : 320px) 
+and (max-device-width : 980px) {
+    
+    header, nav, article, aside, footer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+}
+
+/* Desktops and laptops */
+@media only all 
+and (min-device-width : 1240px) {
+    
+    div.container {
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        height: 50%
+    }
+
+    header, footer {
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        padding-top: 30px;
+    }
+
+    nav, article {
+        margin-top: 0px;
+        margin-right: 20px;
+        float: left;
+        width: 30%;
+        height: 100%;
+        
+    }
+
+    nav div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);    
+    }
+
+    article div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);    
+    }
+    
+    aside div {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);    
+    }
+
+    aside {
+        float:right;
+        width: 30%;
+        height: 40%
+    }
+    
+}
