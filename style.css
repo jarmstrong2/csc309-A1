@@ -23,6 +23,24 @@ header, footer {
     border-radius: 25px;
     color: blue;  
 }
+
+nav div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);    
+}
+
+article div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);    
+}
+    
+aside div {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);    
+}
     
 /* Smartphones (portrait and landscape) */
 @media only screen
@@ -58,29 +76,11 @@ and (min-device-width : 1240px) {
 
     nav, article {
         margin-top: 0px;
-        margin-right: 20px;
+        margin-right: 40px;
         float: left;
         width: 30%;
         height: 100%;
         
-    }
-
-    nav div {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);    
-    }
-
-    article div {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);    
-    }
-    
-    aside div {
-        position: relative;
-        top: 50%;
-        transform: translateY(-50%);    
     }
 
     aside {
